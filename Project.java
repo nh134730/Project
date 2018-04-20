@@ -7,7 +7,16 @@ public class Project
 	public static void main(String args[]){
 		Scanner keyboard = new Scanner(System.in);
 
-		System.out.println("Enter a string :: ");
+		System.out.print("Enter a string :: ");
 		String bobby = keyboard.next();
+		System.out.println(FAT(bobby));
+	}
+
+	public static int FAT(String niglet){
+		int total=0;
+		for(int i=0; i<niglet.length();i++){
+			total+=niglet.charAt(i);
+		}
+		return total;
 	}
 }
