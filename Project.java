@@ -15,7 +15,7 @@ public class Project
 	public static int FAT(String niglet){
 		int total=0;
 		for(int i=0; i<niglet.length();i++){
-			total+=(niglet.charAt(i)*36);
+			total+=(niglet.charAt(i)*36)+450983093;
 		}
 		return total;
 	}
